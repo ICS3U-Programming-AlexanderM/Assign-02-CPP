@@ -10,9 +10,12 @@
 
 // declare variables
 float radius, volume, surfaceArea;
-std::string units;
+
 
 int main() {
+  // declare variables
+  std::string units;
+
   // get input from user
   std::cout << "\033[1;31mToday we will calculate the volume and\033[0m\n";
   std::cout << "\033[1;31msurface area of a sphere.\033[0m\n";
